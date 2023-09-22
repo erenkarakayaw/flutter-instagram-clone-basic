@@ -5,11 +5,33 @@ class mainAppBar extends StatelessWidget implements PreferredSizeWidget {
   @override
   Widget build(BuildContext context) {
     return AppBar(
-      iconTheme: IconThemeData(  //ACTIONS'TAN EKLEYECEKSİN HEM BUTONLARI HEM INSTAGRAM SİMGESİNİ
-        color: Colors.red,
-        fill: 1
+      title: Image.asset(
+        "../image.png",
+        height: 50,
+        color: Colors.white,
+        filterQuality: FilterQuality.high,
       ),
-      backgroundColor: Colors.black,
+      actions: [
+        IconButton(
+            onPressed: () => {},
+            icon: Icon(Icons.heart_broken_outlined),
+            color: Colors.white,
+            iconSize: 30,
+        ),
+        Container(
+          padding: EdgeInsets.fromLTRB(0, 0, 15, 0),
+        ),
+        IconButton(
+          onPressed: () => {},
+          icon: Icon(Icons.voice_chat_outlined),
+          color: Colors.white,
+          iconSize: 30,
+        ),
+        Container(
+          padding: EdgeInsets.fromLTRB(0, 0, 15, 0),
+        )
+      ],
+      backgroundColor: Colors.red,
     );
   }
 
