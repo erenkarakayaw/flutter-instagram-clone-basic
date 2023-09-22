@@ -7,7 +7,7 @@ class mainBody extends StatelessWidget {
       children: [
         ListTile(
           titleAlignment: ListTileTitleAlignment.center,
-          title: Image.network("https://cdn.britannica.com/w:400,h:300,c:crop/58/129958-050-C3FE2DD2/Adolf-Hitler-1933.jpg"),
+          title: Image.network("https://img.pixers.pics/pho_wat(s3:700/FO/57/40/61/27/700_FO57406127_3e967c74bb94cb57b38d88dcb4e462d3.jpg,700,700,cms:2018/10/5bd1b6b8d04b8_220x50-watermark.png,over,480,650,jpg)/cikartmalar-yangin-alfabe-harfi-quot-g-quot.jpg.jpg"),
         )
       ],
     );
