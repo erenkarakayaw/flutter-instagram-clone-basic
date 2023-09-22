@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'mainAppBar.dart';
 import 'mainNavigationBar.dart';
+import 'mainBody.dart';
 
 class mainScaffold extends StatelessWidget {
 
@@ -9,7 +10,8 @@ class mainScaffold extends StatelessWidget {
     return Scaffold(
       backgroundColor: Colors.black,
       appBar: mainAppBar(),
-      bottomNavigationBar: mainNavigationBar()
+      bottomNavigationBar: mainNavigationBar(),
+      body: mainBody(),
     ) ;
   }
 
