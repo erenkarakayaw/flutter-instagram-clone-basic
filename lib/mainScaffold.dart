@@ -4,7 +4,6 @@ import 'mainNavigationBar.dart';
 import 'mainBody.dart';
 
 class mainScaffold extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -12,7 +11,6 @@ class mainScaffold extends StatelessWidget {
       appBar: mainAppBar(),
       bottomNavigationBar: mainNavigationBar(),
       body: mainBody(),
-    ) ;
+    );
   }
-
 }

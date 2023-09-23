@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'mainScaffold.dart';
 
 class mainApp extends StatelessWidget {
-
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -10,6 +9,4 @@ class mainApp extends StatelessWidget {
       home: mainScaffold(),
     );
   }
-
-
 }
